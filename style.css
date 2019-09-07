@@ -1,0 +1,63 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 100px;
+}
+
+button {
+    padding: 5px;
+}
+
+/* nav */
+
+nav {
+    padding: 10px;
+    background: white;
+}
+
+/* body */
+
+body {
+    background-image: url('https://sm.ign.com/ign_ap/screenshot/default/2018012446166639_ayt5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#newTable, #popUp {
+    display: none;
+    background: white;
+}
+
+#popUp {
+    position: fixed;
+    width: 300px;
+    margin: 10% 33%;
+    padding: 20px;
+    border: 1px solid black;
+    background: lightblue;
+}
+
+table td {
+    height: 40px;
+}
+
+table th, table td {
+    width: 24vw;
+    border: 1pt solid black;
+}
+
+.dtlBtn {
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .dtl, .dtlBtn {
+        display: none;
+    }
+}

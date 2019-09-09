@@ -17,6 +17,9 @@ button {
 nav {
     padding: 10px;
     background: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px dotted black;
 }
 
 /* body */

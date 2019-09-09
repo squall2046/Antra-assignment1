@@ -43,6 +43,10 @@ body {
     border: 1px solid black;
     background: lightblue;
 }
+#newTable {
+    position: relative;
+    top: 100px;
+}
 
 table td {
     height: 40px;

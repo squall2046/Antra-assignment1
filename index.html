@@ -11,8 +11,9 @@
 
 <body>
     <nav>
-        <img class='logo' src="https://www.game-refraction.com/wp-content/uploads/2015/12/HxH-Title.png" alt="Yu Yu Hakusho">
-        <br/>
+        <img class='logo' src="https://www.game-refraction.com/wp-content/uploads/2015/12/HxH-Title.png"
+            alt="Yu Yu Hakusho">
+        <br />
         <button onclick='clickTable()'>Click Me</button>
     </nav>
     <table id='newTable'>
@@ -25,14 +26,17 @@
             </tr>
         </thead>
         <tbody>
-            <!-- api -->
+            <!-- table api -->
         </tbody>
 
-        <div id='popUp'>
+        <div id='popUpTableContainer'>
+            <table id='popUpTable'>
+                <!-- popup Table api -->
+            </table>
+        </div>
 
-            <div id='clearPop' onclick="clearPop()">
-                <!-- api -->
-            </div>
+        <div id='popUp'>
+            <!-- popup detail api -->
         </div>
     </table>
     <script src="./app.js"></script>

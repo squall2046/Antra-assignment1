@@ -15,11 +15,14 @@ button {
 /* nav */
 
 nav {
+    box-sizing: border-box;
+    height: 100px;
     padding: 10px;
     background: white;
     position: fixed;
     width: 100%;
     border-bottom: 2px dotted black;
+
 }
 
 /* body */
@@ -33,6 +36,8 @@ body {
 #newTable, #popUp {
     display: none;
     background: white;
+    position: relative;
+    top: 100px;
 }
 
 #popUp {
@@ -42,10 +47,7 @@ body {
     padding: 20px;
     border: 1px solid black;
     background: lightblue;
-}
-#newTable {
-    position: relative;
-    top: 100px;
+    z-index: 2;
 }
 
 table td {
